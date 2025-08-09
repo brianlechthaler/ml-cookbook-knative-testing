@@ -17,7 +17,7 @@ spec:
         - name: regcred
       containers:
         - name: l3test
-          image: ghcr.io/nebius/ml-cookbook/knative-llamacpp:main
+          image: ghcr.io/brianlechthaler/ml-cookbook-knative-testing/knative-llamacpp:main
           imagePullPolicy: Always
           env:
             - name: LLAMA_ARG_CTX_SIZE
